@@ -57,33 +57,33 @@ def layout():
 teamAscore = w.create_text(630, 25, text=str(scoreA), fill="red", font=("Arial",30), tags=('scoreA'))
 teamBscore = w.create_text(670, 25, text=str(scoreB), fill="blue", font=("Arial",30), tags=('scoreB'))
 
-image = Image.open("crowdL.jpg")
+image = Image.open("images/crowdL.jpg")
 im2 = image.resize((60,1600), Image.ANTIALIAS)
 audienceLimage = ImageTk.PhotoImage(im2)
 w.create_image(0,0,image=audienceLimage)
     
-image = Image.open("adsL.jpg")
+image = Image.open("images/adsL.jpg")
 im2 = image.resize((15,1600), Image.ANTIALIAS)
 adsLimage = ImageTk.PhotoImage(im2)
 w.create_image(50,0,image=adsLimage)
     
-image = Image.open("crowdR.jpg")
+image = Image.open("images/crowdR.jpg")
 im2 = image.resize((60,1600), Image.ANTIALIAS)
 audienceRimage = ImageTk.PhotoImage(im2)
 w.create_image(1290,0,image=audienceRimage)
     
-image = Image.open("adsR.jpg")
+image = Image.open("images/adsR.jpg")
 im2 = image.resize((15,1600), Image.ANTIALIAS)
 adsRimage = ImageTk.PhotoImage(im2)
 w.create_image(1240,0,image=adsRimage)
 
-image = Image.open("ball.jpg")
+image = Image.open("images/ball.jpg")
 im2 = image.resize((15,15), Image.ANTIALIAS)
 ballImage = ImageTk.PhotoImage(im2)
 ball = w.create_image(650,384,image=ballImage, tags=('players'))
 
 
-image = Image.open("blueP.jpg")
+image = Image.open("images/blueP.jpg")
 im2 = image.resize((20,60), Image.ANTIALIAS)
 bluePimage = ImageTk.PhotoImage(im2)
 
@@ -92,7 +92,7 @@ for i in range(0,4):
     blueParray.append(w.create_image(800+((i%2)*100),250+(i*100),image=bluePimage, tags=('players')))
 
 
-image = Image.open("redP.jpg")
+image = Image.open("images/redP.jpg")
 im2 = image.resize((20,60), Image.ANTIALIAS)
 redPimage = ImageTk.PhotoImage(im2)
 
