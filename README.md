@@ -1,4 +1,4 @@
-#Realtime Soccer Simulator
+# Realtime Soccer Simulator
 
 The tkinter library of python is needed to compile and run the project. Required image files are included in images directory.
 
