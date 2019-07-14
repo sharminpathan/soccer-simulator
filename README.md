@@ -1,9 +1,22 @@
-# Realtime Soccer Simulator
+# Soccer Simulator
+A GUI based soccer simulator using Python
 
-The tkinter library of python is needed to compile and run the project. Required image files are included in images directory.
+Technologies Used:
+-----------------
+- Python 2.7
+- Tkinter
 
+Introduction:
+------------
+An assignment for the parallel simulations class taken by me for Spring 2017. The assignment was to design and simulate a soccer game.
 
-To execute, simply type:
-python soccer.py teamA teamB
+Execution:
+---------
+Ensure the system is up with
+- Tkinter
 
-teamA and teamB can be replaced by any team names as per the user’s choice.
+The program takes two command line arguments:
+- name of east team
+- name of west team
+
+For example: soccer.py teamA teamB
